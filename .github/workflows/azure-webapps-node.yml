@@ -1,5 +1,4 @@
 name: CI/CD Azure app servie (Node JS App)
-
 on:
   push:
     branches:
