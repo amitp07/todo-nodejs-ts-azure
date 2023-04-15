@@ -13,8 +13,8 @@ console.log('Static files being served from: ' + path.join(__dirname, 'public'))
 
 app.use(route);
 
-app.listen(3000, () => {
-    console.log('app is running..... 3000');
+app.listen(process.env.PORT, () => {
+    console.log('app is running on .....', process.env.PORT);
 });
 
 export default app;
